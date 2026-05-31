@@ -54,3 +54,87 @@
 2026-05-30 21:54:46 | INFO | P03 | ========================
 2026-05-30 21:54:46 | INFO | P03 | Executed successfully!
 2026-05-30 21:54:46 | INFO | P03 | ========================
+2026-05-30 22:48:41 | INFO | P03 | === RUN START ===
+2026-05-30 22:48:41 | INFO | P03 | project=P03
+2026-05-30 22:48:41 | INFO | P03 | repo_dir=datafun-03-analyticsv2
+2026-05-30 22:48:41 | INFO | P03 | python=3.14.3
+2026-05-30 22:48:41 | INFO | P03 | os=Windows 11
+2026-05-30 22:48:41 | INFO | P03 | shell=powershell
+2026-05-30 22:48:41 | INFO | P03 | cwd=.
+2026-05-30 22:48:41 | INFO | P03 | github_actions=False
+2026-05-30 22:48:41 | INFO | P03 | ========================
+2026-05-30 22:48:41 | INFO | P03 | START main()
+2026-05-30 22:48:41 | INFO | P03 | ========================
+2026-05-30 22:48:41 | INFO | P03 | ROOT_DIR = .
+2026-05-30 22:48:41 | INFO | P03 | PROCESSED_DIR = data\processed
+2026-05-30 22:48:41 | INFO | P03 | CSV: START
+2026-05-30 22:56:07 | INFO | P03 | === RUN START ===
+2026-05-30 22:56:07 | INFO | P03 | project=P03
+2026-05-30 22:56:07 | INFO | P03 | repo_dir=datafun-03-analyticsv2
+2026-05-30 22:56:07 | INFO | P03 | python=3.14.3
+2026-05-30 22:56:07 | INFO | P03 | os=Windows 11
+2026-05-30 22:56:07 | INFO | P03 | shell=powershell
+2026-05-30 22:56:07 | INFO | P03 | cwd=.
+2026-05-30 22:56:07 | INFO | P03 | github_actions=False
+2026-05-30 22:56:07 | INFO | P03 | ========================
+2026-05-30 22:56:07 | INFO | P03 | START main()
+2026-05-30 22:56:07 | INFO | P03 | ========================
+2026-05-30 22:56:07 | INFO | P03 | ROOT_DIR = .
+2026-05-30 22:56:07 | INFO | P03 | PROCESSED_DIR = data\processed
+2026-05-30 22:56:07 | INFO | P03 | CSV: START
+2026-05-30 22:56:53 | INFO | P03 | === RUN START ===
+2026-05-30 22:56:53 | INFO | P03 | project=P03
+2026-05-30 22:56:53 | INFO | P03 | repo_dir=datafun-03-analyticsv2
+2026-05-30 22:56:53 | INFO | P03 | python=3.14.3
+2026-05-30 22:56:53 | INFO | P03 | os=Windows 11
+2026-05-30 22:56:53 | INFO | P03 | shell=powershell
+2026-05-30 22:56:53 | INFO | P03 | cwd=.
+2026-05-30 22:56:53 | INFO | P03 | github_actions=False
+2026-05-30 22:56:53 | INFO | P03 | ========================
+2026-05-30 22:56:53 | INFO | P03 | START main()
+2026-05-30 22:56:53 | INFO | P03 | ========================
+2026-05-30 22:56:53 | INFO | P03 | ROOT_DIR = .
+2026-05-30 22:56:53 | INFO | P03 | PROCESSED_DIR = data\processed
+2026-05-30 22:56:53 | INFO | P03 | CSV: START
+2026-05-30 23:13:47 | INFO | P03 | === RUN START ===
+2026-05-30 23:13:47 | INFO | P03 | project=P03
+2026-05-30 23:13:47 | INFO | P03 | repo_dir=datafun-03-analyticsv2
+2026-05-30 23:13:47 | INFO | P03 | python=3.14.3
+2026-05-30 23:13:47 | INFO | P03 | os=Windows 11
+2026-05-30 23:13:47 | INFO | P03 | shell=powershell
+2026-05-30 23:13:47 | INFO | P03 | cwd=.
+2026-05-30 23:13:47 | INFO | P03 | github_actions=False
+2026-05-30 23:13:47 | INFO | P03 | ========================
+2026-05-30 23:13:47 | INFO | P03 | START main()
+2026-05-30 23:13:47 | INFO | P03 | ========================
+2026-05-30 23:13:47 | INFO | P03 | ROOT_DIR = .
+2026-05-30 23:13:47 | INFO | P03 | PROCESSED_DIR = data\processed
+2026-05-30 23:13:47 | INFO | P03 | CSV: START
+2026-05-30 23:15:47 | INFO | P03 | === RUN START ===
+2026-05-30 23:15:47 | INFO | P03 | project=P03
+2026-05-30 23:15:47 | INFO | P03 | repo_dir=datafun-03-analyticsv2
+2026-05-30 23:15:47 | INFO | P03 | python=3.14.3
+2026-05-30 23:15:47 | INFO | P03 | os=Windows 11
+2026-05-30 23:15:47 | INFO | P03 | shell=powershell
+2026-05-30 23:15:47 | INFO | P03 | cwd=.
+2026-05-30 23:15:47 | INFO | P03 | github_actions=False
+2026-05-30 23:15:47 | INFO | P03 | ========================
+2026-05-30 23:15:47 | INFO | P03 | START main()
+2026-05-30 23:15:47 | INFO | P03 | ========================
+2026-05-30 23:15:47 | INFO | P03 | ROOT_DIR = .
+2026-05-30 23:15:47 | INFO | P03 | PROCESSED_DIR = data\processed
+2026-05-30 23:15:47 | INFO | P03 | CSV: START
+2026-05-30 23:15:47 | INFO | P03 | CSV: wrote C:\Repos\datafun-03-analyticsv2\data\processed\csv_productivity_score_stats.txt
+2026-05-30 23:15:47 | INFO | P03 | CSV: END
+2026-05-30 23:15:47 | INFO | P03 | XLSX: START
+2026-05-30 23:15:47 | INFO | P03 | XLSX: wrote C:\Repos\datafun-03-analyticsv2\data\processed\xlsx_feedback_github_count.txt
+2026-05-30 23:15:47 | INFO | P03 | XLSX: END
+2026-05-30 23:15:47 | INFO | P03 | JSON: START
+2026-05-30 23:15:47 | INFO | P03 | JSON: wrote C:\Repos\datafun-03-analyticsv2\data\processed\json_astronauts_by_craft.txt
+2026-05-30 23:15:47 | INFO | P03 | JSON: END
+2026-05-30 23:15:47 | INFO | P03 | TXT: START
+2026-05-30 23:15:47 | INFO | P03 | TXT: wrote C:\Repos\datafun-03-analyticsv2\data\processed\txt_summary.txt
+2026-05-30 23:15:47 | INFO | P03 | TXT: END
+2026-05-30 23:15:47 | INFO | P03 | ========================
+2026-05-30 23:15:47 | INFO | P03 | Executed successfully!
+2026-05-30 23:15:47 | INFO | P03 | ========================

@@ -13,12 +13,12 @@ Date: 2026-04
 
   Paths (relative to repo root):
 
-    INPUT FILE:  data/raw/2020_happiness.csv
-    OUTPUT FILE: data/processed/csv_ladder_score_stats.txt
+    INPUT FILE:  data/raw/Mental_Health_Dataset.csv
+    OUTPUT FILE: data/processed/csv_productivity_score_stats.txt
 
   Terminal command to run this file from the root project folder:
 
-    uv run python -m datafun.bjean_csv_pipeline
+    uv run python -m datafun.app_mental_health
 
 OBS:
   Don't edit this file - it should remain a working example.
@@ -41,8 +41,8 @@ from typing import Any
 # Example:
 #   def my_func(*, name: str, count: int) -> None: ...
 #
-#   my_func(name="case", count=3)   # correct - named arguments
-#   my_func("case", 3)              # TypeError - positional not allowed
+#   my_func(name="bjean", count=3)   # correct - named arguments
+#   my_func("bjean", 3)              # TypeError - positional not allowed
 #
 # WHY: In data pipelines, argument order mistakes are hard to debug.
 # Named arguments make every call self-documenting.
@@ -203,7 +203,7 @@ def load_stats_report(*, stats: dict[str, float], out_path: Path) -> None:
 # The logger is passed in as an argument so this function works in any context.
 
 
-def run_csv_pipeline(*, raw_dir: Path, processed_dir: Path, logger: Any) -> None:
+def run_app_mental_health(*, raw_dir: Path, processed_dir: Path, logger: Any) -> None:
     """Run the full ETVL pipeline.
 
     Arguments:
@@ -216,11 +216,11 @@ def run_csv_pipeline(*, raw_dir: Path, processed_dir: Path, logger: Any) -> None
     """
     logger.info("CSV: START")
 
-    input_file = raw_dir / "2020_happiness.csv"
-    output_file = processed_dir / "csv_ladder_score_stats.txt"
+    input_file = raw_dir / "Mental_Health_Dataset.csv"
+    output_file = processed_dir / "csv_productivity_score_stats.txt"
 
     # E: Read raw data.
-    scores = extract_csv_scores(file_path=input_file, column_name="Ladder score")
+    scores = extract_csv_scores(file_path=input_file, column_name="productivity_score")
 
     # T: Calculate statistics.
     stats = transform_scores_to_stats(scores=scores)

@@ -1,0 +1,6 @@
+CSV Ladder Score Statistics
+Count: 10000
+Minimum: 43
+Maximum: 100
+Mean: 77
+Standard Deviation: 14
