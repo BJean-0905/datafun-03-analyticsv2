@@ -91,7 +91,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/datafun-03-analytics
+git clone https://github.com/BJean-0905/datafun-03-analyticsv2
 
 cd datafun-03-analytics
 code .
@@ -117,6 +117,7 @@ uvx pre-commit run --all-files
 
 # run the module
 uv run python -m datafun.app_case
+uv run python -m datafun.app_bjean
 
 # do chores
 uv run ruff format .
